@@ -33,7 +33,7 @@ group :doc do
 end
 
 gem 'rspec-rails'
-gem 'capybara'
+gem 'capybara', '1.1.2'
 gem 'therubyracer'
 gem 'rb-readline'
 
