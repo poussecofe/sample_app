@@ -35,7 +35,7 @@ end
 gem 'rspec-rails'
 gem 'capybara', '1.1.2'
 gem 'therubyracer'
-gem 'rb-readline'
+gem 'rb-readline', '~> 0.4.2'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
