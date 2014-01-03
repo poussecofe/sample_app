@@ -36,6 +36,7 @@ gem 'rspec-rails'
 gem 'capybara', '1.1.2'
 gem 'therubyracer'
 gem 'rb-readline', '~> 0.4.2'
+gem 'bootstrap-sass', '2.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
