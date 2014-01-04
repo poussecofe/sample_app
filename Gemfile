@@ -42,9 +42,12 @@ gem 'capybara', '1.1.2'
 gem 'therubyracer'
 gem 'rb-readline', '~> 0.4.2'
 gem 'bootstrap-sass', '2.1'
+group :development do
+  gem 'annotate', '2.5.0'
+end
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
 # gem 'unicorn'
