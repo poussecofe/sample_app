@@ -45,6 +45,9 @@ gem 'bootstrap-sass', '2.1'
 group :development do
   gem 'annotate', '2.5.0'
 end
+group :test do
+  gem 'factory_girl_rails', '4.1.0'
+end
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.1.2'
